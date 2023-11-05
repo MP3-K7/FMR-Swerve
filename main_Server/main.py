@@ -32,6 +32,8 @@ server = BluetoothMailboxServer()
 testMBox = TextMailbox('testMBox', server)
 angleMBox = TextMailbox('angleMBox', server)
 velocityMBox = TextMailbox('velocityMBox', server)
+rigthArmMBox = LogicMailbox('rigthArmMBox', server)
+leftArmMBox = LogicMailbox('leftArmMBox', server)
 
 #==
 
